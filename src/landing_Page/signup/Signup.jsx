@@ -9,7 +9,7 @@ const Signup = () => {
   const navigate = useNavigate();
   const handleSubmit = async (e)=>{
     e.preventDefault();
-    let res = fetch("http://localhost:5000/signup",{
+    let res = fetch("https://zerodha-y08c.onrender.com/signup",{
       method:"POST",
       headers:{
         "Content-Type":"application/json"
